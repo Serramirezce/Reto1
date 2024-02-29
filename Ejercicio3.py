@@ -16,7 +16,7 @@ def encontrar_primos(lista):
     return primos
 
 if __name__ == "__main__":
+    print ("Ingrese una lista de números separados por comas. (Ejemplo: 2,5,10)")
     entrada = input()
     print(encontrar_primos(entrada))
-    
 
