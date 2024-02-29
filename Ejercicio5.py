@@ -18,6 +18,7 @@ def encontrar_palabras_repetidas(cadena):
     return nuevas_palabras #Por último, la función retorna las palabras que tienen los mismos caracteres
 
 if __name__ == "__main__":
+    print("Ingrese las palabras separadas por comas, sin espacios entre ellas: ")
     entrada = input()
     final = encontrar_palabras_repetidas(entrada)
     print(",".join(final)) #Imprime todos los elementos de la nueva lista separados por comas.
